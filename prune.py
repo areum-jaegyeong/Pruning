@@ -547,7 +547,7 @@ if __name__ == "__main__":
 
     # model = torchvision.models.shufflenet_v2_x0_5(pretrained=False)
     # model.fc = nn.Linear(1024, num_classes)
-    # optimized_model = filter_prune_for_sheufflenet_v2(model)
+    # optimized_model = filter_prune_for_shufflenet_v2(model)
 
     print(optimized_model)
 
